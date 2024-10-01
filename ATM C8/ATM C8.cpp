@@ -245,7 +245,7 @@ short QuickWithdrawScreenAndReadChoose()
 	cout << "\t" << "[9] Exit\n";
 	PrintLine();
 	PrintBalance(false);
-	return ReadShortNumber("Choos what to withdraw from 1 to 8 : ", 1, 9);
+	return ReadShortNumber("Choos what to withdraw from 1 to 9 : ", 1, 9);
 }
 bool CheckAmountAvailable(int withdrawalAmount)
 {
